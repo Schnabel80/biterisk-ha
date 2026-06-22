@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Wettersensoren",
+        "description": "Wähle die Wettersensoren für die Mückenrisiko-Berechnung.",
+        "data": {
+          "temp_sensor": "Temperatursensor",
+          "humidity_sensor": "Luftfeuchtigkeitssensor",
+          "wind_sensor": "Windgeschwindigkeitssensor",
+          "rain_sensor": "Regensensor (kumulativer mm-Wert)"
+        }
+      },
+      "location": {
+        "title": "Standort",
+        "description": "Wähle deine Etage und die Sonnenuntergangs-Quelle.",
+        "data": {
+          "floor": "Etage",
+          "sun_entity": "Sonnen-Entität (für Sonnenuntergangszeit)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "BiteRisk Optionen",
+        "description": "Etagen-Modifikator anpassen.",
+        "data": {
+          "floor": "Etage"
+        }
+      }
+    }
+  }
+}

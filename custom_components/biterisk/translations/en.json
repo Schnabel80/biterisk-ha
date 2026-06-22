@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Weather Sensors",
+        "description": "Select the weather sensors to use for mosquito risk estimation.",
+        "data": {
+          "temp_sensor": "Temperature sensor",
+          "humidity_sensor": "Humidity sensor",
+          "wind_sensor": "Wind speed sensor",
+          "rain_sensor": "Rain sensor (cumulative mm)"
+        }
+      },
+      "location": {
+        "title": "Location",
+        "description": "Select your floor level and sunset source.",
+        "data": {
+          "floor": "Floor level",
+          "sun_entity": "Sun entity (for sunset time)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "BiteRisk Options",
+        "description": "Adjust floor modifier.",
+        "data": {
+          "floor": "Floor level"
+        }
+      }
+    }
+  }
+}
