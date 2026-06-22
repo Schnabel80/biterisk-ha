@@ -17,7 +17,7 @@ dev = [
 
 [tool.ruff]
 line-length = 79
-target-version = "py313"
+target-version = "py314"
 
 [tool.ruff.lint]
 select = ["E","F","I","UP","B","BLE","SIM","C90","RUF","ASYNC","PERF","PGH","G","T20","TC"]
@@ -29,3 +29,4 @@ max-complexity = 25
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

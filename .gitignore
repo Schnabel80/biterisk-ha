@@ -4,3 +4,8 @@ __pycache__/
 .coverage
 .ruff_cache/
 .pytest_cache/
+dist/
+*.egg-info/
+home-assistant.log
+config/
+*.csv
