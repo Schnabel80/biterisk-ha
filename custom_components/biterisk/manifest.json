@@ -8,5 +8,6 @@
   "config_flow": true,
   "iot_class": "calculated",
   "integration_type": "service",
-  "requirements": []
+  "requirements": [],
+  "after_dependencies": ["recorder"]
 }
