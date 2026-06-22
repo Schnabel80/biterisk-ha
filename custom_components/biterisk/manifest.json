@@ -1,13 +1,13 @@
 {
   "domain": "biterisk",
   "name": "BiteRisk",
-  "version": "0.1.0b1",
-  "documentation": "https://github.com/Schnabel80/biterisk-ha",
-  "issue_tracker": "https://github.com/Schnabel80/biterisk-ha/issues",
+  "after_dependencies": ["recorder"],
   "codeowners": ["@Schnabel80"],
   "config_flow": true,
-  "iot_class": "calculated",
+  "documentation": "https://github.com/Schnabel80/biterisk-ha",
   "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/Schnabel80/biterisk-ha/issues",
   "requirements": [],
-  "after_dependencies": ["recorder"]
+  "version": "0.1.0b1"
 }
