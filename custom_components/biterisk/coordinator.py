@@ -54,7 +54,7 @@ class BiteRiskCoordinator(DataUpdateCoordinator[dict[str, Any]]):
             return None
         try:
             return float(state.state)
-        except (ValueError, TypeError):
+        except (ValueError, TypeError):  # fmt: skip
             return None
 
     def _minutes_from_sunset(self) -> float:
